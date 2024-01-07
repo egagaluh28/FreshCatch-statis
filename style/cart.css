@@ -1,0 +1,103 @@
+/* Gaya untuk item keranjang belanja */
+.custom-cart-item {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-cart-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.custom-cart-item img {
+  max-width: 120px;
+  max-height: 120px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.custom-cart-item-details {
+  padding-left: 20px;
+}
+
+.custom-cart-item-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.custom-cart-item-price {
+  color: #19a7ce;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.custom-cart-item-description {
+  color: #666;
+  margin-top: 10px;
+}
+
+.custom-quantity-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.custom-quantity-label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.custom-quantity {
+  width: 50px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.custom-btn-quantity {
+  background-color: #19a7ce;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn-quantity:hover {
+  background-color: #007aab;
+}
+
+.custom-total-price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.custom-btn-remove {
+  background-color: #ff6961;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: auto;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn-remove:hover {
+  background-color: #ff0000;
+}
